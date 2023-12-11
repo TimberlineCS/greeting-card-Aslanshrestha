@@ -8,5 +8,17 @@
 The elements must come to gether to resemble an image.  Your Greeting Card
 must also include text, an image, and music. */
 
-var background = document.createElement("div");
-background.style.width= 
+var background=document.createElement("div");
+var text=document.createElement("div");
+var triangleOne=document.createElement("div");
+var triangleTwo=document.createElement("div");
+var triangleThree=document.createElement("div");
+
+background.style.width= "98%";
+background.style.backgroundColor= "#b57f3e";
+background.style.padding= "10px";
+document.body.append(background);
+
+background.append(text); 
+background.append(trianle); 
+background.append(image);
