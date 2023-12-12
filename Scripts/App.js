@@ -17,8 +17,12 @@ var triangleThree=document.createElement("div");
 background.style.width= "98%";
 background.style.backgroundColor= "#b57f3e";
 background.style.padding= "10px";
-document.body.append(background);
+document.body.append(background); 
+ 
+background.text
 
-background.append(text); 
-background.append(trianle); 
-background.append(image);
+text.style.innerHTML= "Merry Christmas"
+text.style.backgroundColor= "transparent"
+text.style.textAlign= "center"
+text.style.color="maroon"
+text.style.fontFamily="cursive"
