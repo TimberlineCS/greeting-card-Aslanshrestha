@@ -14,7 +14,6 @@ var triangleOne=document.createElement("div");
 var triangleTwo=document.createElement("div");
 var triangleThree=document.createElement("div");
 
-background.style.width= "98%";
 background.style.backgroundColor= "red";
 background.style.padding= "10px";
 document.body.append(background); 
@@ -31,7 +30,7 @@ text.style.fontFamily="cursive";
 triangleOne.style.border = "green solid 50px"; 
 triangleOne.style.width = "0px"; 
 triangleOne.style.height = "0px"; 
-triangleOne.style.textAlign= "center";
+triangleOne.style.postion= "relative";
 triangleOne.style.borderLeftColor = "transparent"; 
 triangleOne.style.borderRightColor = "transparent"; 
 triangleOne.style.borderTopColor = "transparent"; 
