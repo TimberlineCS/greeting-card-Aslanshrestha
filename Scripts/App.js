@@ -37,8 +37,8 @@ triangleOne.style.borderLeftColor = "transparent";
 triangleOne.style.borderRightColor = "transparent"; 
 triangleOne.style.borderTopColor = "transparent"; 
 triangleOne.style.borderBottomWidth = "50px" 
-triangleOne.style.marginLeft="160px";
-triangleOne.style.marginTop="60px";
+triangleOne.style.marginLeft="167px";
+triangleOne.style.marginTop="30px";
 triangleOne.style.marginBottom="0px";
 triangleOne.style.position="absolute";
 document.body.append(triangleOne);
@@ -50,21 +50,21 @@ triangleTwo.style.borderLeftColor = "transparent";
 triangleTwo.style.borderRightColor = "transparent"; 
 triangleTwo.style.borderTopColor = "transparent"; 
 triangleTwo.style.borderBottomWidth = "80px" 
-triangleTwo.style.marginLeft="140px";
-triangleTwo.style.marginTop="100px";
+triangleTwo.style.marginLeft="147px";
+triangleTwo.style.marginTop="60px";
 triangleTwo.style.marginBottom="0px";
 triangleTwo.style.position= "absolute";
 document.body.append(triangleTwo); 
 
 triangleThree.style.border="#0d4701 solid 50px";
-triangleThree.style.width="100px";
+triangleThree.style.width="90px";
 triangleThree.style.height = "0px"; 
 triangleThree.style.borderLeftColor = "transparent"; 
 triangleThree.style.borderRightColor = "transparent"; 
 triangleThree.style.borderTopColor = "transparent"; 
 triangleThree.style.borderBottomWidth = "80px" 
-triangleThree.style.marginLeft="115px";
-triangleThree.style.marginTop="150px";
+triangleThree.style.marginLeft="127px";
+triangleThree.style.marginTop="120px";
 triangleThree.style.marginBottom="0px";
 triangleThree.style.position= "absolute"
 document.body.append(triangleThree); 
@@ -76,8 +76,8 @@ triangleFour.style.borderLeftColor = "transparent";
 triangleFour.style.borderRightColor = "transparent"; 
 triangleFour.style.borderTopColor = "transparent"; 
 triangleFour.style.borderBottomWidth = "80px" 
-triangleFour.style.marginLeft="110px";
-triangleFour.style.marginTop="200px";
+triangleFour.style.marginLeft="113px";
+triangleFour.style.marginTop="190px";
 triangleFour.style.marginBottom="30px";
 triangleFour.style.position= "absolute"
 document.body.append(triangleFour); 
@@ -90,7 +90,7 @@ triangleFive.style.borderRightColor = "transparent";
 triangleFive.style.borderTopColor = "transparent"; 
 triangleFive.style.borderBottomWidth = "90px" 
 triangleFive.style.marginLeft="95px";
-triangleFive.style.marginTop="250px";
+triangleFive.style.marginTop="255px";
 triangleFive.style.marginBottom="100px";
 triangleFive.style.position="absolute";
 document.body.append(triangleFive); 
@@ -99,10 +99,10 @@ rectangleOne.style.width="5%";
 rectangleOne.style.height="5em";
 rectangleOne.style.backgroundColor="#572d03";
 rectangleOne.style.marginLeft="190px";
-rectangleOne.style.marginTop="385px"
+rectangleOne.style.marginTop="393px"
 rectangleOne.style.position="absolute";
 document.body.append(rectangleOne);
-
+/*
 circleOne.style.width = "50px"; 
 circleOne.style.height = "50px"; 
 circleOne.style.border = "white solid 5px"; 
@@ -111,14 +111,16 @@ circleOne.style.borderRadius = "50%";
 circleOne.style.marginLeft="800px";
 circleOne.style.marginTop="0px";
 document.body.append(circleOne); 
-
+*/
 circleTwo.style.width = "100px"; 
 circleTwo.style.height = "100px"; 
 circleTwo.style.border = "white solid 5px"; 
 circleTwo.style.backgroundColor = "white"; 
 circleTwo.style.borderRadius = "50%";
 circleTwo.style.marginLeft="800px";
-circleTwo.style.marginTop="0.1px";
+circleTwo.style.position="absolute";
+circleTwo.style.marginTop="80px";
+circleTwo.style.marginBottom="80px";
 document.body.append(circleTwo); 
 
 circleThree.style.width = "150px"; 
@@ -126,6 +128,7 @@ circleThree.style.height = "150px";
 circleThree.style.border = "white solid 5px"; 
 circleThree.style.backgroundColor = "white"; 
 circleThree.style.borderRadius = "50%"; 
+circleThree.style.position="absolute";
 circleThree.style.marginLeft="800px";
-circleThree.style.marginTop="0px";
+circleThree.style.marginTop="170px";
 document.body.append(circleThree); 
