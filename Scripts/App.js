@@ -8,6 +8,7 @@
 The elements must come to gether to resemble an image.  Your Greeting Card
 must also include text, an image, and music. */
 
+var text= document.createElement("div");
 var triangleOne=document.createElement("div");
 var triangleTwo=document.createElement("div");
 var triangleThree=document.createElement("div");
@@ -21,6 +22,13 @@ var circleThree=document.createElement("div");
 document.body.style.backgroundColor = "#3b434f"; 
 
 document.body.append(triangleOne);
+
+text.style.innerHTMl= "Merry Christmas"
+text.style.background= "black"
+text.style.textAlign= "center"
+text.style.color= "white"
+text.style.fontFamily= "cursive"
+document.body.append(text);
 
 triangleOne.style.border = "#0d4701 solid 50px"; 
 triangleOne.style.width ="10px";
@@ -91,6 +99,8 @@ rectangleOne.style.width="5%";
 rectangleOne.style.height="5em";
 rectangleOne.style.backgroundColor="#572d03";
 rectangleOne.style.marginLeft="190px";
+rectangleOne.style.marginTop="385px"
+rectangleOne.style.position="absolute";
 document.body.append(rectangleOne);
 
 circleOne.style.width = "50px"; 
