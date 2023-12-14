@@ -11,6 +11,8 @@ must also include text, an image, and music. */
 var triangleOne=document.createElement("div");
 var triangleTwo=document.createElement("div");
 var triangleThree=document.createElement("div");
+var triangleFour=document.createElement("div");
+var triangleFive=document.createElement("div");
 var rectangleOne=document.createElement("div");
 var circleOne=document.createElement("div");
 var circleTwo=document.createElement("div");
@@ -21,41 +23,69 @@ document.body.style.backgroundColor = "#3b434f";
 document.body.append(triangleOne);
 
 triangleOne.style.border = "#0d4701 solid 50px"; 
-triangleOne.style.width ="0px";
+triangleOne.style.width ="10px";
 triangleOne.style.height = "0px"; 
 triangleOne.style.borderLeftColor = "transparent"; 
 triangleOne.style.borderRightColor = "transparent"; 
 triangleOne.style.borderTopColor = "transparent"; 
 triangleOne.style.borderBottomWidth = "50px" 
-triangleOne.style.marginLeft="190px";
-triangleOne.style.marginTop="0px";
+triangleOne.style.marginLeft="160px";
+triangleOne.style.marginTop="60px";
 triangleOne.style.marginBottom="0px";
+triangleOne.style.position="absolute";
 document.body.append(triangleOne);
 
 triangleTwo.style.border="#0d4701 solid 50px";
-triangleTwo.style.width="100px";
+triangleTwo.style.width="50px";
 triangleTwo.style.height = "0px"; 
 triangleTwo.style.borderLeftColor = "transparent"; 
 triangleTwo.style.borderRightColor = "transparent"; 
 triangleTwo.style.borderTopColor = "transparent"; 
 triangleTwo.style.borderBottomWidth = "80px" 
-triangleTwo.style.marginLeft="115px";
-triangleTwo.style.marginTop="0px";
+triangleTwo.style.marginLeft="140px";
+triangleTwo.style.marginTop="100px";
 triangleTwo.style.marginBottom="0px";
-triangleTwo.style.postion= "relative"
+triangleTwo.style.position= "absolute";
 document.body.append(triangleTwo); 
 
 triangleThree.style.border="#0d4701 solid 50px";
-triangleThree.style.width="150px";
+triangleThree.style.width="100px";
 triangleThree.style.height = "0px"; 
 triangleThree.style.borderLeftColor = "transparent"; 
 triangleThree.style.borderRightColor = "transparent"; 
 triangleThree.style.borderTopColor = "transparent"; 
-triangleThree.style.borderBottomWidth = "90px" 
-triangleThree.style.marginLeft="95px";
-triangleThree.style.marginTop="0px";
+triangleThree.style.borderBottomWidth = "80px" 
+triangleThree.style.marginLeft="115px";
+triangleThree.style.marginTop="150px";
 triangleThree.style.marginBottom="0px";
+triangleThree.style.position= "absolute"
 document.body.append(triangleThree); 
+
+triangleFour.style.border="#0d4701 solid 50px";
+triangleFour.style.width="115px";
+triangleFour.style.height = "0px"; 
+triangleFour.style.borderLeftColor = "transparent"; 
+triangleFour.style.borderRightColor = "transparent"; 
+triangleFour.style.borderTopColor = "transparent"; 
+triangleFour.style.borderBottomWidth = "80px" 
+triangleFour.style.marginLeft="110px";
+triangleFour.style.marginTop="200px";
+triangleFour.style.marginBottom="30px";
+triangleFour.style.position= "absolute"
+document.body.append(triangleFour); 
+
+triangleFive.style.border="#0d4701 solid 50px";
+triangleFive.style.width="150px";
+triangleFive.style.height = "0px"; 
+triangleFive.style.borderLeftColor = "transparent"; 
+triangleFive.style.borderRightColor = "transparent"; 
+triangleFive.style.borderTopColor = "transparent"; 
+triangleFive.style.borderBottomWidth = "90px" 
+triangleFive.style.marginLeft="95px";
+triangleFive.style.marginTop="250px";
+triangleFive.style.marginBottom="100px";
+triangleFive.style.position="absolute";
+document.body.append(triangleFive); 
 
 rectangleOne.style.width="5%";
 rectangleOne.style.height="5em";
