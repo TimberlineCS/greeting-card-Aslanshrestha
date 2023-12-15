@@ -138,6 +138,9 @@ circleThree.style.marginLeft="795px";
 circleThree.style.marginTop="320px";
 document.body.append(circleThree); 
 
+//Line 143-   are being used to code the details like the snowman's hat
+//and the ornanments 
+
 var rectangleTwo=document.createElement("div");
 rectangleTwo.style.width="8%";
 rectangleTwo.style.height="3em";
@@ -147,18 +150,40 @@ rectangleTwo.style.marginTop="105px"
 rectangleTwo.style.position="absolute";
 document.body.append(rectangleTwo);
 
+var leftEye=document.createElement("div");
+leftEye.style.width = "10px"; 
+leftEye.style.height = "10px"; 
+leftEye.style.border = "black solid 5px"; 
+leftEye.style.backgroundColor = "black"; 
+leftEye.style.borderRadius = "50%"; 
+leftEye.style.position="absolute";
+leftEye.style.marginLeft="900px";
+leftEye.style.marginTop="170px";
+document.body.append(leftEye)
+
+var rightEye= document.createElement("div");
+rightEye.style.width="10px";
+rightEye.style.height="10px";
+rightEye.style.border="black solid 5px"
+rightEye.style.backgroundColor="black";
+rightEye.style.borderRadius="50%"
+rightEye.style.position="absolute";
+rightEye.style.marginLeft="855px";
+rightEye.style.marginTop="170px";
+document.body.append(rightEye);
+
 var imageOne= document.createElement("img");
 imageOne.src="Images/FallingSnowTransparent.gif";
-document.body.append(imageOne)
+document.body.append(imageOne);
 
 var imageTwo= document.createElement("img");
 imageTwo.src="Images/FallingSnowTransparent.gif";
-imageTwo.style.position="fixed"
-imageTwo.style.left="300px"
-document.body.append(imageTwo)
+imageTwo.style.position="fixed";
+imageTwo.style.left="300px";
+document.body.append(imageTwo);
 
 var imageThree= document.createElement("img");
 imageThree.src="Images/FallingSnowTransparent.gif";
-imageThree.style.position="fixed"
-imageThree.style.left="550px"
-document.body.append(imageThree)
+imageThree.style.position="fixed";
+imageThree.style.left="550px";
+document.body.append(imageThree);
