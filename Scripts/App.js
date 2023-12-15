@@ -8,7 +8,6 @@
 The elements must come to gether to resemble an image.  Your Greeting Card
 must also include text, an image, and music. */
 
-
 var triangleOne=document.createElement("div");
 var triangleTwo=document.createElement("div");
 var triangleThree=document.createElement("div");
@@ -27,10 +26,12 @@ var welcome = document.createElement("div");
 welcome.innerHTML = "Merry Christmas"
 welcome.style.fontSize="50px";
 welcome.style.fontFamily="cursize";
-welcome.style.color="maroon";
+welcome.style.color="red";
 welcome.style.position="absolute";
 welcome.style.left="350px";
 document.body.append(welcome)
+
+//Lines 36-107 are being used to code the christmas tree seen in file
 
 triangleOne.style.border = "#0d4701 solid 50px"; 
 triangleOne.style.width ="10px";
@@ -111,9 +112,11 @@ circleOne.style.border = "white solid 5px";
 circleOne.style.backgroundColor = "white";
 circleOne.style.borderRadius = "50%"; 
 circleOne.style.marginLeft="830px";
-circleOne.style.marginTop="185px";
+circleOne.style.marginTop="140px";
 circleOne.style.position="absolute";
 document.body.append(circleOne); 
+
+// Lines 121-139 are being used to create the body of the snowman
 
 circleTwo.style.width = "140px"; 
 circleTwo.style.height = "140px"; 
@@ -122,7 +125,7 @@ circleTwo.style.backgroundColor = "white";
 circleTwo.style.borderRadius = "50%";
 circleTwo.style.marginLeft="813px";
 circleTwo.style.position="absolute";
-circleTwo.style.marginTop="255px";
+circleTwo.style.marginTop="210px";
 document.body.append(circleTwo); 
 
 circleThree.style.width = "180px"; 
@@ -132,9 +135,30 @@ circleThree.style.backgroundColor = "white";
 circleThree.style.borderRadius = "50%"; 
 circleThree.style.position="absolute";
 circleThree.style.marginLeft="795px";
-circleThree.style.marginTop="340px";
+circleThree.style.marginTop="320px";
 document.body.append(circleThree); 
+
+var rectangleTwo=document.createElement("div");
+rectangleTwo.style.width="8%";
+rectangleTwo.style.height="3em";
+rectangleTwo.style.backgroundColor="black";
+rectangleTwo.style.marginLeft="838px";
+rectangleTwo.style.marginTop="105px"
+rectangleTwo.style.position="absolute";
+document.body.append(rectangleTwo);
 
 var imageOne= document.createElement("img");
 imageOne.src="Images/FallingSnowTransparent.gif";
 document.body.append(imageOne)
+
+var imageTwo= document.createElement("img");
+imageTwo.src="Images/FallingSnowTransparent.gif";
+imageTwo.style.position="fixed"
+imageTwo.style.left="300px"
+document.body.append(imageTwo)
+
+var imageThree= document.createElement("img");
+imageThree.src="Images/FallingSnowTransparent.gif";
+imageThree.style.position="fixed"
+imageThree.style.left="550px"
+document.body.append(imageThree)
