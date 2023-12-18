@@ -138,6 +138,36 @@ circleThree.style.marginLeft="795px";
 circleThree.style.marginTop="320px";
 document.body.append(circleThree); 
 
+circleFour.style.width = "180px"; 
+circleFour.style.height = "180px"; 
+circleFour.style.border = "white solid 5px"; 
+circleFour.style.backgroundColor = "white"; 
+circleFour.style.borderRadius = "50%"; 
+circleFour.style.position="absolute";
+circleFour.style.marginLeft="795px";
+circleFour.style.marginTop="320px";
+document.body.append(circleFour); 
+
+circleFive.style.width = "180px"; 
+circleFive.style.height = "180px"; 
+circleFive.style.border = "white solid 5px"; 
+circleFive.style.backgroundColor = "white"; 
+circleFive.style.borderRadius = "50%"; 
+circleFive.style.position="absolute";
+circleFive.style.marginLeft="795px";
+circleFive.style.marginTop="320px";
+document.body.append(circleFive); 
+
+circleSix.style.width = "180px"; 
+circleSix.style.height = "180px"; 
+circleSix.style.border = "white solid 5px"; 
+circleSix.style.backgroundColor = "white"; 
+circleSix.style.borderRadius = "50%"; 
+circleSix.style.position="absolute";
+circleSix.style.marginLeft="795px";
+circleSix.style.marginTop="320px";
+document.body.append(circleSix); 
+
 //Line 143-   are being used to code the details like the snowman's hat
 //and the ornanments 
 
@@ -172,7 +202,9 @@ rightEye.style.marginLeft="855px";
 rightEye.style.marginTop="170px";
 document.body.append(rightEye);
 
-var imageOne= document.createElement("img");
+
+
+//These lines are being used to code the falling snow and music
 imageOne.src="Images/FallingSnowTransparent.gif";
 document.body.append(imageOne);
 
