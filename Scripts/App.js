@@ -2,11 +2,7 @@
 //Period 1
 //Dec.11.2023
 
-/*Provide a description about what this program does here*/
-
-/*Write code to create and manipulate the elements on the index.html page.  
-The elements must come to gether to resemble an image.  Your Greeting Card
-must also include text, an image, and music. */
+/*This code represents a tree and a snowman wishing you a merry Christmas*/
 
 var triangleOne=document.createElement("div");
 var triangleTwo=document.createElement("div");
@@ -22,6 +18,7 @@ document.body.style.backgroundColor = "#3b434f";
 
 document.body.append(triangleOne);
 
+// This is my text
 var welcome = document.createElement("div");
 welcome.innerHTML = "Merry Christmas"
 welcome.style.fontSize="50px";
@@ -31,7 +28,7 @@ welcome.style.position="absolute";
 welcome.style.left="350px";
 document.body.append(welcome)
 
-//Lines 36-107 are being used to code the christmas tree seen in file
+//Lines 32-107 are being used to code the christmas tree seen in the file
 
 triangleOne.style.border = "#0d4701 solid 50px"; 
 triangleOne.style.width ="10px";
@@ -116,7 +113,7 @@ circleOne.style.marginTop="140px";
 circleOne.style.position="absolute";
 document.body.append(circleOne); 
 
-// Lines 121-139 are being used to create the body of the snowman
+// Lines 117-135 are being used to create the body of the snowman
 
 circleTwo.style.width = "140px"; 
 circleTwo.style.height = "140px"; 
@@ -138,7 +135,7 @@ circleThree.style.marginLeft="795px";
 circleThree.style.marginTop="320px";
 document.body.append(circleThree); 
 
-//Lines 143-172 are used to  
+//Lines 139-168 are used to  
 
 var rectangleTwo=document.createElement("div");
 rectangleTwo.style.width="8%";
@@ -173,7 +170,10 @@ document.body.append(rightEye);
 
 //These lines are being u
 //used to code the falling snow and music
+var imageOne=document.createElement("img");
 imageOne.src="Images/FallingSnowTransparent.gif";
+imageOne.style.position="fixed";
+imageOne.style.left="90px"
 document.body.append(imageOne);
 
 var imageTwo= document.createElement("img");
@@ -187,3 +187,7 @@ imageThree.src="Images/FallingSnowTransparent.gif";
 imageThree.style.position="fixed";
 imageThree.style.left="550px";
 document.body.append(imageThree);
+
+var au = new Audio("Music/AllIWantForChristmas.mp3");
+au.controls = true;
+document.body.appendChild(au);
